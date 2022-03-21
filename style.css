@@ -1,0 +1,182 @@
+body {
+height: auto;
+width: auto;
+}
+#time {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5vh;
+  line-height: 37px;
+  position: relative;
+  
+}
+#batt_lev{
+  font-size: 3.5vh;
+  position: relative;
+  top: 0.5vh;
+  right: -1vw;
+}
+#battery {
+   background-color: black;
+   height: 6vh;
+   width: 25vw;
+   color: white;
+   border-radius: 11%;
+   padding: 0;
+   text-align:center;
+   font-family: sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   position: relative;
+   right: 3vw;
+   top: 0.4vh
+}
+#logo_krys {
+  height: 8vh;
+  width: 35vw;
+  position: absolute;
+  left: -16vw;
+}
+
+#top_row {
+  position: absolute;
+  right: -5vw;
+}
+#center_row {
+  position: relative;
+  top: 35vh;
+}
+
+#btn_id {
+  position: absolute;
+  top: 90vh;
+  right: -5vw;
+}
+
+#speed {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17vh;
+  text-align: center;
+  padding: 0;
+}
+
+#kmph {
+  position: absolute;
+  top: 16vh
+}
+
+#bpmRow {
+  position: absolute;
+  top: 62vh;
+  right: -9vw;
+
+}
+#spRow {
+  position: absolute;
+  top: 75vh;
+  right: -9vw;
+
+}
+
+#heart_logo {
+  height: 10vh;
+  width: 20vw;
+}
+#sp02_logo {
+  height: 10vh;
+  width: 22vw;
+}
+
+#bpm_data {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5vh;
+  line-height: 10vh;
+}
+
+#bpm_si {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3vh;
+  line-height: 10vh;
+}
+#sp02_data {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5vh;
+  line-height: 10vh;
+}
+#sp02_si {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3vh;
+  line-height: 10vh;
+}
+#left_Border {
+  height: 60vh;
+  padding: 0;
+  width: 0.01vw;
+  box-shadow: 0vw 0vh 22vw 10vw black;
+  position: absolute;
+  left: 0vw;
+  top: 25vh;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+#right_Border {
+  height: 60vh;
+  padding: 0;
+  width: 0.01vw;
+  box-shadow: 1vw 0vh 22vw 10vw black;
+  position: absolute;
+  right: -10vw;
+  top: 25vh;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+#bot_Border {
+  height: 0.01vh;
+  padding: 0;
+  width: 70vw;
+  box-shadow: 0vw -0.01vh 30vw 10vw black;
+  position: absolute;
+  left: 20vw;
+  bottom: -9vh;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+#carouselSlidesOnly {
+  position:absolute;
+  top: 14vh;
+  left: 10vw;
+  height:28vh;
+  width: 90vw;
+}
+#nav {
+  position: relative;
+  height: 20vh;
+  width: 40vw;
+  top: 2vh;
+}
+#cruise {
+  position: relative;
+  height: 20vh;
+  width: 40vw;
+  top: 2vh;
+}
+#hyper {
+  position: relative;
+  height: 18vh;
+  width: 47vw;
+  top: 2vh;
+}
+#temp {
+  height: 30vh;
+}
